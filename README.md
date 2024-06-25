@@ -73,7 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-<div class="css-hero-anim-wrap">
-    <div id="js-anim-top-arrow" class="deco-top-arrow" style="width: 140px; background: rgb(247, 247, 247); margin: 0px 49.9784% 0px 49.98%; transform: skew(24.0001deg, 0deg); opacity: 1; display: none;"></div>
-    <div id="js-anim-bottom-arrow" class="deco-bottom-arrow" style="width: 140px; background: rgb(247, 247, 247); margin: 0px 49.98% 0px 50.0168%; transform: skew(-24.0001deg, 0deg); opacity: 1; display: none;"></div>
+
+  <div class="css-hero-anim-wrap">
+    <div id="js-anim-top-arrow" class="deco-top-arrow" style="width: 140px; background: rgb(247, 247, 247); margin: 0px 50%; transform: translate3d(0px, 0px, 0px) skew(9.3376deg, 0deg) scale(12.6078, 12.6078); opacity: 0.3891; display: block;"></div>
+    <div id="js-anim-bottom-arrow" class="deco-bottom-arrow" style="width: 140px; background: rgb(247, 247, 247); margin: 0px 50%; transform: translate3d(0px, 0px, 0px) skew(-9.3376deg, 0deg) scale(12.6078, 12.6078); opacity: 0.3891; display: block;"></div>
   </div>
+
+<div class="js-anim-hero-buffer hero-anim-buffer" style="background: rgb(172, 172, 172);"></div>
+
