@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #2a2a2a;
+}
+@keyframes cus_opacity {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+            
+  }
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1; 
+      translate: 0 -4rem;            
+  }
+}
+@keyframes fadeInsecond {
+  from {
+      opacity: 0;                 
+      
+  }
+  to {
+      opacity: 1;
+      translate: 0 4rem;   
+                }
+}
+@keyframes fadeInthird {
+  from {
+      opacity: 0;           
+      
+  }
+  to {
+      opacity: 1;
+      translate: 0 -6rem;
+                         
+  }
+}
+.fade-in {
+  animation:fadeIn 2s forwards;
+  animation-delay: 0.5s;    
+}
+.fade-in-delay {
+  animation: fadeInsecond 2s forwards;
+  animation-delay: 0.5s;  
+  
+}
+.fade-in-delay-2{
+  animation: fadeInthird 2s forwards;
+  animation-delay: 0.5s;  
+  
+         
+}
+.custom_opacity_span_h1{
+  animation : cus_opacity 1s forwards;
+  animation-delay: 1s;
+ 
+}
+.custom_opacity_h1{
+  animation : cus_opacity 3s forwards;
+
+}
+
+
+/* index.css */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      display: none;
+  }
+  to {
+      opacity: 1;
+      display: block;
+  }
+}
+
+.css-hero-anim-wrap {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+.deco-top-arrow,
+.deco-bottom-arrow {
+  position: absolute;
+  height: 10px;
+  opacity: 0;
+  display: none;
+}
+
+.deco-top-arrow {
+  top: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.deco-bottom-arrow {
+  bottom: 0;
+  animation: fadeIn 1s forwards;
+}
+
