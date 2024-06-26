@@ -1,5 +1,5 @@
 import React from 'react';
-import backimage from './assets/contact-swoosh-wavy.svg';
+// Remove unused import: backimage from './assets/contact-swoosh-wavy.svg';
 
 const Section6 = () => {
   return (
