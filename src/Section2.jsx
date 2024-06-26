@@ -47,7 +47,7 @@ const Section2 = () => {
                                 <li className="flex text-base sm:text-lg"><img src={dot} className="mr-4" alt="dot" />Legacy Modernization</li>
                             </ul>
                         </div>
-                        <div className="flex flex-col space-y-6" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+                        <div className="flex flex-col space-y-6" data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
                             <h1 className="text-2xl sm:text-4xl font-bold">Support</h1>
                             <ul className="flex flex-col space-y-5">
                                 <li className="flex text-base sm:text-lg"><img src={dot} className="mr-4" alt="dot" />Software Consulting</li>

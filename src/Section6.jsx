@@ -20,7 +20,7 @@ const Section6 = () => {
             </p>
           </div>
         </div>
-        <div className="bg-[#0DC9C5] flex items-center lg:min-h-screen p-8 lg:p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <div className="bg-[#0DC9C5] flex items-center lg:min-h-screen p-8 lg:p-0" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
           <div className="bg-[#0DC9C5] p-8 rounded-lg w-full">
             <form className="space-y-4">
               <div className="relative">

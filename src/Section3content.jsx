@@ -10,7 +10,7 @@ const Section3content = (prop) => {
                         {prop.heading}
                     </h1>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
+                <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
                     <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
                         <span className="text-[#212529]">{prop.mainblack}</span>
                         <span className="text-[#0DC9C5]"> {prop.maincyan}</span>

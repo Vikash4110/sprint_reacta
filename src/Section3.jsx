@@ -29,7 +29,7 @@ const Section3 = () => {
 
             <div className="bg-[#F7F7F7] pt-20 md:pt-40">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="flex justify-center items-center relative order-first md:order-last" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1500">
+                    <div className="flex justify-center items-center relative order-first md:order-last" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="500">
                         <img src={ipad} className="w-80 md:w-[80rem] pr-0 md:pr-12" />
                         <img src={ipadarrow} className="absolute -translate-y-16 md:-translate-y-24 translate-x-8 md:translate-x-16" />
                     </div>
