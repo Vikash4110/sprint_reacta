@@ -35,7 +35,7 @@ const Section3 = () => {
                     </div>
                     <Section3content
                         heading="LEGACY MODERNISATION"
-                        paragraph="The team behind Snap Fitness approached us wanting to improve member retention and engagement through an app that would provide members with an enhanced gym experience. From fitness tracking, to recipes and wellness articles, the app provides members with a variety of tools to supplement their fitness journey."
+                        paragraph="In business for over 40 years, the team at Rochele Painting approached us to write a new digital chapter in the history books. With such a longstanding legacy, a few old school processes needed a new coat of paint. To modernise Rochele's operations, we automated their whole workflow from inquiry through to invoicing."
                         mainblack="Goodbye paper,"
                         maincyan="hello profit."
                         className='order-last md:order-first'
@@ -51,7 +51,7 @@ const Section3 = () => {
                     </div>
                     <Section3content
                         heading="INTEGRATED WEB APPLICATIONS"
-                        paragraph="The team behind Snap Fitness approached us wanting to improve member retention and engagement through an app that would provide members with an enhanced gym experience. From fitness tracking, to recipes and wellness articles, the app provides members with a variety of tools to supplement their fitness journey."
+                        paragraph="We worked with GoTurf to create a comprehensive backend system to manage their inventory and deliveries, connecting turf farms with distrubutors, and distributors to customers."
                         mainblack="Software built for"
                         maincyan="purpose"
 
