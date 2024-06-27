@@ -20,27 +20,27 @@ const RotatingCircle = () => {
         id="circle"
       >
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full top-0 left-1/2 transform -translate-x-1/2"
         />
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full top-1/2 right-0 transform -translate-y-1/2 translate-x-1/2"
         />
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2"
         />
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full top-1/2 left-0 transform -translate-y-1/2 -translate-x-1/2"
         />
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full top-1/4 right-1/4"
         />
         <img
-          src={howwework}
+          src={howwework} alt=""
           className="absolute w-13 h-13 md:w-15 md:h-15 rounded-full bottom-1/4 left-1/4"
         />
       </div>
