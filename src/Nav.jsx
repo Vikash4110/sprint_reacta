@@ -23,13 +23,13 @@ const Navbar = () => {
   return (
     <nav className="bg-transparent p-4">
       <div className="flex justify-between items-center">
-        <div className="text-white text-xl font-bold">
+        <Link to='./home' className="text-white text-xl font-bold">
           <img src={logo} alt="logo" />
-        </div>
+        </Link>
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/about" className="text-white underline-animation font-bold">About</Link>
-          <Link to="/services" className="text-white underline-animation font-bold">Services</Link>
-          <Link to="/projects" className="text-white underline-animation font-bold">Projects</Link>
+          <Link to="/abouts" className="text-white underline-animation font-bold">About</Link>
+          <Link to="/service" className="text-white underline-animation font-bold">Services</Link>
+          <Link to="/project" className="text-white underline-animation font-bold">Projects</Link>
           <div className="relative group">
             <button
               onMouseEnter={() => toggleDropdown(true)}
@@ -43,8 +43,8 @@ const Navbar = () => {
             </button>
             {isDropdownOpen && (
               <div className="absolute w-44 bg-transparent rounded-md py-2 z-10" onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
-                <Link to="/articles" className="block px-4 py-2 text-white underline-animation w-20 font-bold">Articles</Link>
-                <Link to="/calculator" className="block px-4 py-2 text-white underline-animation font-bold">Savings Calculator</Link>
+                <Link to="/articles" className="block px-4 py-2 text-white underline-animation font-bold">Articles</Link>
+                <Link to="/savingscalculator" className="block px-4 py-2 text-white underline-animation font-bold">Savings Calculator</Link>
               </div>
             )}
           </div>
@@ -70,24 +70,28 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden mt-4 space-y-4">
-          <Link to="/about" className="block text-white w-12 underline-animation">About</Link>
-          <Link to="/services" className="block text-white w-14 underline-animation">Services</Link>
-          <Link to="/projects" className="block text-white w-16 underline-animation">Projects</Link>
+          <Link to="/about" className="block text-white underline-animation font-bold">About</Link>
+          <Link to="/services" className="block text-white underline-animation font-bold">Services</Link>
+          <Link to="/projects" className="block text-white underline-animation font-bold">Projects</Link>
           <div className="relative">
-            <button onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)} className="w-full text-left text-white hover:text-teal-400 focus:outline-none flex items-center">
+            <button
+              onMouseEnter={() => toggleDropdown(true)}
+              onMouseLeave={() => toggleDropdown(false)}
+              className="w-full text-left text-white focus:outline-none flex items-center font-bold"
+            >
               Resources
               <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
             </button>
             {isDropdownOpen && (
-              <div className="w-20 bg-transparent rounded-md py-2 z-10" onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
-                <Link to="/articles" className="block px-4 py-2 text-white underline-animation">Articles</Link>
-                <Link to="/calculator" className="block px-4 py-2 text-white underline-animation w-44">Savings Calculator</Link>
+              <div className="w-44 bg-transparent rounded-md py-2 z-10" onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
+                <Link to="/articles" className="block px-4 py-2 text-white underline-animation font-bold">Articles</Link>
+                <Link to="/calculator" className="block px-4 py-2 text-white underline-animation font-bold">Savings Calculator</Link>
               </div>
             )}
           </div>
-          <Link to="/contact" className="block text-white w-24 underline-animation">Contact Us</Link>
+          <Link to="/contact" className="block text-white underline-animation font-bold">Contact</Link>
         </div>
       )}
     </nav>
@@ -95,4 +99,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

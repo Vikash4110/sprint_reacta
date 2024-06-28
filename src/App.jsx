@@ -1,28 +1,32 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Nav from './Nav';
-import Section1 from './Section1';
-import Section2 from './Section2';
-import Section3 from './Section3';
-import Section4 from './Section4';
-import Section5 from './Section5';
-import Section6 from './Section6';
-import Footer from './Footer';
-import RotatingCircle from './RotatingCircle';
 
-function App(){
-    return(
-        <>
-            <Nav />
-            <Section1 />
-            <Section2 />
-            <Section3 />
-            <RotatingCircle />
-            <Section4 />
-            <Section5 />
-            <Section6 />
-            <Footer />
-        </>
-       
-    )
+import Abouts from './Abouts';
+import Service from './Service';
+import Project from './Project';
+import SavingsCalculator from './SavingsCalculator';
+import Articles from './Articles'
+import Footer from './Footer';
+import Contact from './Contact'
+import Home from './Home'
+
+function App() {
+  return (
+    <>
+      <Nav />
+   
+      <Routes>
+        <Route path="/home" element={<Home/>} />
+        <Route path="/abouts" element={<Abouts />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/savingscalculator" element={<SavingsCalculator />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
+  );
 }
-export default App
+
+export default App;
