@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="bg-transparent p-4">
       <div className="flex justify-between items-center">
-        <Link to='./home' className="text-white text-xl font-bold">
+        <Link to='./' className="text-white text-xl font-bold">
           <img src={logo} alt="logo" />
         </Link>
         <div className="hidden md:flex items-center space-x-8">
